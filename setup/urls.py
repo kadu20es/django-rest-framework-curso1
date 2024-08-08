@@ -20,5 +20,5 @@ from escola.views import estudantes
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('estudante', estudantes)
+    path('estudantes/', estudantes)
 ]
